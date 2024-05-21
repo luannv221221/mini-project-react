@@ -1,0 +1,15 @@
+.mini-cart{
+    display: none;
+    position: absolute;
+    width: 540px;
+    right: -90px;
+    top: 25px;
+    z-index: 10000;
+}
+.cart{
+    position: relative;
+}
+.cart:hover .mini-cart{
+    /* color: red; */
+    display: block;
+}
